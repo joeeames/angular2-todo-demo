@@ -1,0 +1,24 @@
+<!-- index.html -->
+<html>
+  <head>
+    <title>Angular 2 Quickstart</title>
+    <script src="/quickstart/dist/es6-shim.js"></script>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  </head>
+  <body class="container">
+  
+    <!-- The app component created in app.es6 -->
+    <todo-app></todo-app>
+
+    <script type="text/javascript">
+      System.paths = {
+    		'angular2/*':'/quickstart/angular2/*.js',
+    		'rtts_assert/*':'/quickstart/rtts_assert/*.js',
+        'components/*':'app/components/*.js',
+        'services/*':'app/services/*.js'
+      };
+    	System.import('components/app');
+    </script>
+    
+  </body>
+</html>

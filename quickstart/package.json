@@ -1,0 +1,38 @@
+{
+  "name": "angular2-quickstart",
+  "version": "2.0.0-alpha.14",
+  "description": "",
+  "main": "gulpfile.js",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/quickstart.git"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/angular/quickstart/issues"
+  },
+  "homepage": "https://github.com/angular/quickstart",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-shell": "^0.3.0",
+    "run-sequence": "^1.0.2"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.14",
+    "rtts_assert": "^2.0.0-alpha.7",
+    "systemjs": "^0.14.1",
+    "zone.js": "^0.4.1"
+  }
+}
